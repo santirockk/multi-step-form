@@ -6,7 +6,7 @@
     align-items: flex-start;
     gap: 16px;
     flex-wrap: wrap;
-    background-image: url('./images/bg-sidebar-mobile.jpg');
+    background-image: url('../../../public/images/bg-sidebar-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -34,7 +34,7 @@
     padding: 36.5px 32px;
     width: 210px;
     height: 495px;
-    background-image: url('./images/bg-sidebar-desktop.jpg');
+    background-image: url('../../../public/images/bg-sidebar-desktop.svg');
     border-radius: 11px;
 
 }
