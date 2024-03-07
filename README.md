@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/santirockk/multi-step-form)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/pixel-perfect-multistepform-with-redux-toolkit-ewugL8Zzfg)
 - Live Site URL: [Live site](https://santirockk.github.io/multi-step-form/)
 
 ## My process
