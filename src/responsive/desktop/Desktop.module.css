@@ -1,0 +1,13 @@
+.main {
+    margin-top: 105px;
+}
+
+@media  (max-width: 1023px) {
+    .header {
+        display: none;
+    }
+    .main {
+        display: none;
+    }
+    
+}

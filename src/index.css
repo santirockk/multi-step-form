@@ -1,0 +1,107 @@
+@import-normalize;
+
+:root {
+  font-family: Ubuntu, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --marine-blue: hsl(213, 96%, 18%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawberry-red: hsl(354, 84%, 57%);
+  --cool-gray: hsl(231, 11%, 63%);
+  --light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+}
+
+* {
+  font-family: Ubuntu, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: var(--marine-blue);
+  min-width: 375px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  background-color: var(--magnolia);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+h3 {
+  padding-top: 1px;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.22px;
+}
+
+p {
+  color: var(--cool-gray);
+  line-height: 1.55;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: var(--magnolia);
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 4px;
+  }
+
+  h2 {
+    margin-bottom: 2px;
+    letter-spacing: -0.22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+  
+}

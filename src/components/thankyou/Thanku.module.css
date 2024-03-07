@@ -1,0 +1,36 @@
+.thanks {
+    margin-top: 51px;
+    margin-bottom: 59px;
+    text-align: center;
+}
+
+.img {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 56px;
+}
+
+.foot {
+    height: 70px;
+}
+
+.desktop {
+    margin-left: 100px;
+    margin-top: 64px;
+    width: 450px;
+    padding-top: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .img {
+        width: 80px;
+        margin-bottom: 26px;
+    }
+
+    .h1 {
+        letter-spacing: 0.1px;
+        margin-bottom: 10px;
+    }
+
+
+}
